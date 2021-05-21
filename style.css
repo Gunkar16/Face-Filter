@@ -1,0 +1,20 @@
+button{
+    font-size: 20px;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    0%{
+        box-shadow:1px 1px 38px greenyellow;
+    }
+    50%{
+        box-shadow:1px 1px 88px cyan;
+    }
+    100%{
+        box-shadow:1px 1px 88px red;
+    }
+    
+}
